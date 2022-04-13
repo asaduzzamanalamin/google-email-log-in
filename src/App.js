@@ -3,6 +3,7 @@ import './App.css';
 import Header from './componants/Header/Header';
 import Home from './componants/Home/Home'
 import Login from './componants/Login/Login';
+import Register from './componants/Register/Register';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/'element={<Home></Home>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path = '/register' element={<Register></Register>}></Route>
       </Routes>
     
     </div>
